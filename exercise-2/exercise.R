@@ -1,5 +1,11 @@
 # Introductory example using the housing data used here: 
 # http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+install.packages('modelr')
+install.packages('tidyverse')
+install.packages('gapminder')
+library(gapminder)
+library(modelr)
+library(tidyverse)
 library(rpart)
 library(rpart.plot)
 
